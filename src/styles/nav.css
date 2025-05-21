@@ -1,0 +1,25 @@
+@font-face {font-family: Janda ;
+  src: url(../styles/fuentes/JandaScrapgirlDots.ttf);
+}
+
+.navegacion{font-family: Janda;
+  padding: auto;
+  margin-left: 10px 20px;
+  position: absolute;
+}
+
+.nave{display: inline-block;
+  color: hotpink;
+  font-size: 15px;
+  background-color: #6a0484;
+  text-decoration: none;
+  text-align: center;
+  margin: 15px 10px;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  width: 15vh;
+}
+
+.nave:hover {background-color: #f0b0e0;
+}

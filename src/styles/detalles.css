@@ -1,0 +1,63 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {font-family: Janda;
+  src: url(../styles/fuentes/JandaScrapgirlDots.ttf);
+}
+
+.info {display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../styles/imagenes/pesas.avif);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+  overflow-y: hidden;
+  justify-content: right;
+  align-items: center;
+  font-family: Janda;
+}
+
+img {width: 35vh;}
+
+h2{color: hotpink;
+  font-size: 45px;
+  margin-top: 100px;
+}
+
+li{font-size: 25px;
+  color: #6a0484;
+  list-style-type: none;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+button{
+    color: hotpink;
+  font-size: 15px;
+  background-color: #6a0484;
+  text-decoration: none;
+  text-align: center;
+  margin: 15px 10px;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  width: 15vh;
+  font-family: Janda;
+  border-color: transparent;
+  
+}
+
+.informa{ width: 200px;
+  display: inline-block;
+}
+
+.informa:hover {background-color: #f0b0e0;}
+
+
+
+
+
