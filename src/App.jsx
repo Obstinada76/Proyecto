@@ -7,6 +7,7 @@ import { Nav } from "./components/Nav"
 import { Usuarios } from "./pages/Usuarios"
 import { UsuarioPorId } from "./pages/Detalles"
 import { Registro } from "./pages/Registro"
+import {Editar} from "./pages/Editar"
 
 
 {/*SE CREAN LAS RUTAS DE LAS PAGINAS*/}

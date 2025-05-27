@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router"
+import { Link } from "react-router"
 import '../styles/detalles.css'
 import imagenPerfil from '../styles/imagenes/perfil.png'
 import { BotonDeEliminar } from "../components/Botoneliminar"
@@ -42,7 +43,7 @@ export const UsuarioPorId = () => {
         </ul>
         <img src={imagenPerfil}></img>
         
-            <button className="informa">Editar</button>
+            <Link to='/usuario/editar/:id' className="informa">Editar</Link>
             <BotonDeEliminar id= {id} className= "informa"></BotonDeEliminar>
         
         
