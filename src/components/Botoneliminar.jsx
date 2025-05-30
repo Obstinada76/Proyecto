@@ -7,7 +7,7 @@ export const BotonDeEliminar = ({id}) => {
         method: 'DELETE'
 
     })
-    alert('El usuario ha sido elimnado')
+    alert('El usuario ha sido eliminado :(')
     window.location.replace ('/')
 }
     

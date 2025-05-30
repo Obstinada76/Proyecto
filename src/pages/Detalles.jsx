@@ -43,7 +43,7 @@ export const UsuarioPorId = () => {
         </ul>
         <img src={imagenPerfil}></img>
         
-            <Link to='/usuario/editar/:id' className="informa">Editar</Link>
+            <Link to={'/usuario/editar/' + Perfiles._id} className="informa">Editar</Link>
             <BotonDeEliminar id= {id} className= "informa"></BotonDeEliminar>
         
         

@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router"
+import { useNavigate } from "react-router"
+import '../styles/editar.css'
 
 export const Editar = () => {
+    const regresar = useNavigate ();
     const {id} = useParams ()
     const [usuario, setUsuario] = useState ({
         nombre: '',
@@ -43,6 +46,7 @@ export const Editar = () => {
                 activo: true,
                 contrasena: ''
             })
+            regresar ('/usuario/'+ id)
         }
     }
     
@@ -65,7 +69,7 @@ export const Editar = () => {
     obtenerUsuarioPorID()
     }, [])
 
-    return (<div>
+    return (<div className="edit">
             <h2>Editar</h2>
             <form onSubmit={manejarEnvio}>
                 <input type="text" placeholder="Nombre:" name='nombre'
@@ -78,12 +82,7 @@ export const Editar = () => {
                 onChange={manejarCambio}
                 />
 
-                <select name="activo" id=""
-                value={usuario.activo}
-                onChange={manejarCambio}>
-                    <option value={true}>Verdadero</option>
-                    <option value={false} selected> Falso</option>
-                </select>
+                
             
                 <input type="password" placeholder="Contraseña:" name='contraseña'
                 value={usuario.contraseña}

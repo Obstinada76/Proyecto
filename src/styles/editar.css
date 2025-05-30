@@ -1,0 +1,27 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {font-family: Janda;
+  src: url(../styles/fuentes/JandaScrapgirlDots.ttf);
+}
+
+.edit {display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(../styles/imagenes/pesas.avif);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+  overflow-y: hidden;
+  justify-content: right;
+  align-items: center;
+  font-family: Janda;
+}
+
+h1{color: hotpink;
+  font-size: 45px;
+  margin-top: 60px;
+}

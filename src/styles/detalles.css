@@ -53,6 +53,19 @@ button{
 
 .informa{ width: 200px;
   display: inline-block;
+  color: hotpink;
+  font-size: 15px;
+  background-color: #6a0484;
+  text-decoration: none;
+  text-align: center;
+  margin: 15px 10px;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  width: 15vh;
+  font-family: Janda;
+  border-color: transparent;
+  
 }
 
 .informa:hover {background-color: #f0b0e0;}
